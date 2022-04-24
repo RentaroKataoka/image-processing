@@ -49,5 +49,4 @@ print(scores)
 
 predict_prob = model.predict(X_test)
 predict_classes=np.argmax(predict_prob, axis=1)
-# true_classes = np.argmax(Y_test, 1)
 print(confusion_matrix(Y_test_backup, predict_classes))
