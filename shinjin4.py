@@ -41,4 +41,3 @@ matches = sorted(matches, key = lambda x:x.distance)# Sort them in the order of 
 img3 = cv2.drawMatches(img1,kp1,img2,kp2,matches[:100], None, flags=2)# Draw first 10 matches.
 
 cv2.imwrite('./picture3/image2-3.jpg', img3)
-# plt.imshow(img3),plt.show()
