@@ -14,7 +14,6 @@ import os
 
 
 folder = os.listdir("./cnn/train") #ファイル・ディレクトリの一覧を取得(リスト)
-#folder.pop(-1)
 image_size = 224
 dense_size  = len(folder)
 
