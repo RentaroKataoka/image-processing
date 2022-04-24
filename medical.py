@@ -37,7 +37,6 @@ X_train = np.array(X_train)
 Y_train = np.array(Y_train)
 X_train = X_train.astype('float32') #データ型の変換
 X_train = X_train / 255.0
-
 Y_train = np_utils.to_categorical(Y_train, dense_size)
 
 
