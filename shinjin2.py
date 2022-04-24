@@ -1,6 +1,8 @@
 import cv2
 
 img = cv2.imread("./picture1/image1.jpg")
+# cv2.imshow("image", img)
+# cv2.waitKey(0)
 
 height = img.shape[0]
 width = img.shape[1]
