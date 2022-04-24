@@ -19,7 +19,7 @@ gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 # cv2.imwrite("./picture3/sift_keypoints2.jpg", img_sift)
 
 
-#ORBを使った総当たりマッチング
+#総当たりマッチング
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
